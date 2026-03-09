@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Comet Tail Strokes (matching the image's "flame" look) -->
+    <path
+        android:fillColor="#97C45B"
+        android:pathData="M15,95 L40,80 L50,85 L35,100 Z" />
+    <path
+        android:fillColor="#97C45B"
+        android:pathData="M10,80 L35,65 L45,70 L25,90 Z" />
+    <path
+        android:fillColor="#97C45B"
+        android:pathData="M18,65 L40,55 L50,60 L30,75 Z" />
+
+    <!-- The Tennis Ball (Top Right focus) -->
+    <path
+        android:fillColor="#97C45B"
+        android:pathData="M95,45 C95,69.85 74.85,90 50,90 C25.15,90 5,69.85 5,45 C5,20.15 25.15,0 50,0 C74.85,0 95,20.15 95,45 Z" />
+
+    <!-- The White Seams -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M75,15 C85,25 90,45 75,75" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M55,10 C45,20 40,40 55,70" />
+</vector>
